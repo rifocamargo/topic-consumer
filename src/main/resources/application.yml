@@ -1,0 +1,8 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+
+jms:
+  topic: br.com.lecom.event-manager.ActiveMQEventPublisherTest
+  client-id: topic-consomer
+  selector: productDomain = 'economia.servicos.gov.br'
